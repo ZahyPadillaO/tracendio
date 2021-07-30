@@ -1,0 +1,176 @@
+/*Nuevo estilo tracendio*/
+/* INICIO Constantes */
+:root {
+    --color-white: #fff;
+    --color-white-tracendio: #f4f8fb;
+    --color-blue-tracendio: #3f4462;
+    --color-lightblue-tracendio: #27c3dd;
+}
+
+/* FIN constantes*/
+
+/* INICIO Generales */
+a {
+    color: var(--color-lightblue-tracendio);
+}
+
+.color-tracendio {
+    color: var(--color-lightblue-tracendio);
+}
+
+.site-footer {
+    border-top: 0;
+}
+
+.background-img {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+
+@media (max-width: 1082px) {
+    .pt-m-10 {
+        padding-top: 10em;
+    }
+}
+
+@media (min-width: 1082px) {
+    .ps-5em {
+        padding-left: 5em;
+    }
+
+    .pe-9em {
+        padding-right: 9em;
+    }
+}
+
+/* FIN Generales*/
+
+/* INICIO Estilo Bloques */
+.section-white {
+    background-color: var(--color-white-tracendio);
+}
+
+.section-lightblue {
+    background-color: var(--color-lightblue-tracendio);
+}
+
+/* FIN Estilo Bloques*/
+
+
+/* --- INICIO Propiedades Fuente*/
+.text-justify {
+    text-align: justify
+}
+
+/* ---- ***** INICIO Grosor fuentes*/
+.font-bold {
+    font-weight: 550;
+    color: var(--color-blue-tracendio);
+}
+
+.font-light {
+    font-weight: 400;
+    color: var(--color-blue-tracendio);
+}
+
+/* ---- ***** FIN Grosor fuentes*/
+
+/* ---- ***** INICIO Size fuentes*/
+.font-xxlg {
+    font-size: 5em;
+}
+
+.font-lg {
+    font-size: 1.5em;
+}
+
+.font-medium {
+    font-size: 1.25em;
+}
+
+.font-small {
+    font-size: 1em;
+}
+
+/* ---- FIN Size fuentes*/
+/* --- FIN Propiedades Fuente*/
+
+/* ---- INICIO Colores fuentes*/
+.font-blue {
+    color: var(--color-blue-tracendio);
+}
+
+.font-white {
+    color: var(--color-white-tracendio);
+}
+
+.font-ligthblue {
+    color: var(--color-lightblue-tracendio);
+}
+
+/* ---- FIN Colores fuentes*/
+/* FIN Fuentes */
+
+/*INICIO Estilo Tabs*/
+
+.nav-pills .nav-link {
+    opacity: .6
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    opacity: 1;
+    color: var(--color-lightblue-tracendio);
+    background-color: var(--color-white);
+    border-bottom: solid 1px var(--color-lightblue-tracendio);
+}
+
+/*FIN Estilo Tabs*/
+
+/* INICIO Boton Contacto */
+.contactButton {
+    position: fixed;
+    bottom: -0.5em;
+    right: 2em;
+    z-index: 100;
+}
+
+.botonBurbuja {
+    border-radius: 20px 20px 3px;
+    box-shadow: 3px 5px 8px #8888;
+}
+
+/* FIN Boton Contacto */
+
+
+/* INICIO Imagen Icono */
+.imgIcon {
+    width: 45px;
+}
+
+/* INICIO Formulario */
+.f-24 {
+    font-size: 1.5em;
+    color: var(--color-blue-tracendio);
+}
+
+textarea {
+    height: 200px
+}
+
+@media (max-width: 767px) {
+    .section-white {
+        width: inherit;
+    }
+
+    textarea {
+        height: 100px
+    }
+}
+
+.btn-tracendio {
+    background-color: #27c3dd !important
+}
+
+/* FIN Formulario */
